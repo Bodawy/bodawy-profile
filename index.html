@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/styles.css">
+  <title>My Portfolio</title>
+</head>
+<body>
+  <header>
+    <h1>Bodawy</h1>
+    <nav>
+        <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+<section id="about">
+  <h2>About Me</h2>
+  <p>I'm Abdelrahman Web developer and Dektop application developer</p>
+  <img src="images/my.jpg" alt="Bodawy">
+</section>
+<section id="projects">
+  <h2>Projects</h2>
+  <article>
+      <h3>Book Store</h3>
+      <p>This is Book Store web site.</p>
+      <a href="https://github.com/Bodawy/Book-Store" target="_blank">View Project</a>
+  </article>
+  <article>
+      <h3>Number-guessing-game</h3>
+      <p>This is Number Number-guessing-game.</p>
+      <a href="https://github.com/Bodawy/Number-guessing-game" target="_blank">View Project</a>
+  </article>
+  <article>
+      <h3>Quiz Game</h3>
+      <p>This is Quiz game.</p>
+      <a href="https://github.com/Bodawy/quiz-game" target="_blank">View Project</a>
+  </article>
+</section>
+<section id="contact">
+  <h2>Contact</h2>
+  <form action="contact.php" method="post">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" placeholder="Enter your name" required>
+      
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email" required>
+      
+      <label for="message">Message</label>
+      <textarea id="message" name="message" placeholder="Enter your message" required></textarea>
+      
+      <input type="submit" value="Send">
+  </form>
+</section>
+<footer>
+  <p>&copy; 2024 Bodawy. All rights reserved.</p>
+</footer>
+</body>
+</html>
